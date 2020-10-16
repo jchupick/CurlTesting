@@ -1,1 +1,3 @@
 172.18.0.3:8080/novels/
+172.18.0.3:8080/novels?id=1
+--request POST --data "author=Tolstoy&title=War and Peace" 172.18.0.3:8080/novels/
