@@ -1,4 +1,4 @@
 172.18.0.3:8080/novels/
 172.18.0.3:8080/novels?id=1
---header "Accept:application/json" 172.18.0.3:8080:8080/novels/
+--header "Accept:application/json" 172.18.0.3:8080/novels/
 --request POST --data 'author=Tolstoy&title=War and Peace' 172.18.0.3:8080/novels/
